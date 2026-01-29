@@ -129,7 +129,7 @@ tensorboard-plugin-wit==1.8.0
     # via tensorboard
 tensorboard==2.4.1
     # via pytorch-lightning
-torch==1.8.0
+torch==1.8.0+cu111
     # via
     #   -r requirements.in
     #   pytorch-lightning
@@ -149,6 +149,9 @@ xgboost==1.3.3
     # via -r requirements.in
 yarl==1.6.3
     # via aiohttp
+
+scikit-learn
+    # used in code but not added to req
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
